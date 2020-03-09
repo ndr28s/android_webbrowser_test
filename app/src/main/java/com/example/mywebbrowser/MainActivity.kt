@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             webViewClient = WebViewClient()
         }
 
-        webView.loadUrl("http://www.google.com")
+        webView.loadUrl("http://www.naver.com")
 
         urlEditText.setOnEditorActionListener { _, actionId, _ ->
             if(actionId == EditorInfo.IME_ACTION_SEARCH) {
